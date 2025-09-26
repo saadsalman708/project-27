@@ -147,8 +147,17 @@
 
 // Answer
 // var A = [24, 53, 78, 91, 12];
-// var ACopy = A.slice(0);
-// document.write(ACopy[-1]);
+// var largest = A[0];
+// for (var i = 0; i < A.length; i++) {
+//     if (A[i] > largest) {
+//         largest = A[i];
+//     }
+// }
+// document.write("Array items: ");
+// for (var i = 0; i < A.length; i++){
+//     document.write(A[i] + " ");
+// }
+// document.write("<br/>The largest number is " + largest);
 
 
 
@@ -159,8 +168,17 @@
 
 // Answer
 // var A = [24, 53, 78, 91, 12];
-// var ACopy = A.slice(0);
-// document.write(A[0]);
+// var smallest = A[0];
+// for (var i = 0; i < A.length; i++) {
+//     if (A[i] < smallest) {
+//         smallest = A[i];
+//     }
+// }
+// document.write("Array items: ");
+// for (var i = 0; i < A.length; i++){
+//     document.write(A[i] + " ");
+// }
+// document.write("<br/>The smallest number is " + smallest);
 
 
 
